@@ -1,0 +1,26 @@
+.box-download{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+iframe{
+  width: 480px;
+  height: 360px;
+  margin: 0 auto;
+  display: block;
+}
+
+.btn-group{
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  iframe{
+    width: 80%;
+    height: 250px;
+  }
+}
